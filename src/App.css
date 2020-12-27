@@ -1,38 +1,58 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+.body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0em 2em 0em 2em;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 1em 0em 0em 0em;
+}
+
+.date {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0.2em 0em 0em 0em;
+}
+
+.time {
+  font-size: 21px;
+  font-weight: 600;
+  margin: 1.5em 0em 0em 0em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo {
+  font-size: 21px;
+  font-weight: 600;
+  margin: 1.3em 0em 0em 0em;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.lighter,
+.light,
+.medium,
+.dark {
+  margin-top: 1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.themes {
+  margin-top: 1.1em;
+  margin-bottom: -0.4em;
+}
+
+.theme_title {
+  background-color: transparent;
+  border: 0;
+  font-size: 19px;
+  padding: 0em 0.8em 0em 0.5em;
+}
+
+.theme {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: 0;
+  padding: 0.5em 0.8em 0.5em 0.8em;
+  margin: 0em 0.2em 0em 0.2em;
 }

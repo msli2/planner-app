@@ -1,0 +1,45 @@
+.calendar {
+  margin-top: 1.5em;
+}
+
+.calendar-navi {
+  color: white;
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.4em;
+}
+
+.calendar-date {
+  background-color: white;
+}
+
+.calendar-day {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.calendar-day td {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.today {
+  font-weight: 700;
+}
+
+#plant {
+  background-color:#8db580;
+}
+
+#icecream {
+  background-color: #A1674A;
+}
+
+#rainbow {
+  background-color: #D88C9A;
+}
+
+#cloud {
+  background-color: #5C6B73;
+}
