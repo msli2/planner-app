@@ -2,13 +2,13 @@
 
 .body {
   font-family: "Quicksand", sans-serif;
-  margin: 0em 2em 0em 2em;
+  padding: 0em 2em 0em 2em;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 29px;
   font-weight: 600;
-  margin: 1em 0em 0em 0em;
+  margin: 0.8em 0em 0em 0em;
 }
 
 .date {
@@ -18,23 +18,26 @@
 }
 
 .time {
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 600;
-  margin: 1.5em 0em 0em 0em;
+  margin: 1.8em 0em 0em 0em;
   text-align: center;
 }
 
 .todo {
   font-size: 21px;
   font-weight: 600;
-  margin: 1.3em 0em 0em 0em;
+  margin: 0.5em 0em 0em 0em;
   text-align: center;
 }
 
-.lighter,
 .light,
 .medium,
 .dark {
+  margin-top: 1.2em;
+}
+
+.lighter {
   margin-top: 1em;
 }
 

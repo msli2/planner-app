@@ -24,22 +24,42 @@
   padding-right: 0.5em;
 }
 
-.today {
-  font-weight: 700;
-}
-
 #plant {
   background-color:#8db580;
+}
+
+.todayplant {
+  background-color: #c2cfb2;
+  color: white;
+  font-weight: 700;
 }
 
 #icecream {
   background-color: #A1674A;
 }
 
+.todayicecream {
+  background-color: #AB9B96;
+  color: white;
+  font-weight: 700;
+}
+
 #rainbow {
   background-color: #D88C9A;
 }
 
+.todayrainbow {
+  background-color: #F2D0A9;
+  color: white;
+  font-weight: 700;
+}
+
 #cloud {
   background-color: #5C6B73;
+}
+
+.todaycloud {
+  background-color: #9DB4C0;
+  color: white;
+  font-weight: 700;
 }

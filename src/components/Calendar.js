@@ -76,7 +76,7 @@ export default class Calendar extends React.Component {
           ? "today"
           : "";
       daysInMonth.push(
-        <td key={d} className={`${currentDay}`}>
+        <td key={d} className={`${currentDay}${this.props.id}`}>
           <span
             onClick={(e) => {
               this.onDayClick(e, d);
@@ -111,9 +111,9 @@ export default class Calendar extends React.Component {
 
     var size;
     if (rows.length === 6) {
-      size = "18px";
+      size = "17px";
     } else if (rows.length === 7) {
-      size = "16px";
+      size = "14px";
     }
 
     return (
